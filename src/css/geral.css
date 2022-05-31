@@ -1,0 +1,19 @@
+@import url(fontes.css);
+
+body{
+    background-color:rgba(0, 62, 84, 0.04);
+    margin-top: 10px;
+    overflow: hidden;
+    color:#00c3fe;
+}
+
+main{
+    background-color: rgba(38, 39, 39, 0);
+    background-image: url("../imagens/fundo.png");
+    font-family: 'DS-Digital';
+    letter-spacing: 1px;
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    border-radius: 0px 40px 0px 40px;
+}

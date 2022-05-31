@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/fontes.css">
+</head>
+
+<body onload="atualizaRelogio()">
+    <main>
+        <div class="redes-sociais">
+            <h1 class="redes-sociais_autor">JOÃO CARLOS LEMOS</h1>
+            <ul class="redes-sociais_lista">
+                <li class="redes-sociais_item-de-lista">
+                    <a href="https://codepen.io/nerv-ikari" target="_blank">
+                        <img class="redes-sociais_img" src="./src/imagens/logo-codepen.png">
+                    </a>
+                </li>
+
+                <li class="redes-sociais_item-de-lista">
+                    <a href="https://www.facebook.com/nerv.ikari" target="_blank">
+                        <img class="redes-sociais_img" src="./src/imagens/logo-facebook.png">
+                    </a>
+                </li>
+
+                <li class="redes-sociais_item-de-lista">
+                    <a href="https://github.com/JoaoCarlosLemos" target="_blank">
+                        <img class="redes-sociais_img" src="./src/imagens/logo-github.png">
+                    </a>
+                </li>
+
+                <li class="redes-sociais_item-de-lista">
+                    <a href="https://www.instagram.com/nervikari" target="_blank">
+                        <img class="redes-sociais_img" src="./src/imagens/logo-instagram.png">
+                    </a>
+                </li>
+
+                <li class="redes-sociais_item-de-lista">
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-carlos-da-silva-lemos-85a926225" target="_blank">
+                        <img class="redes-sociais_img" src="./src/imagens/logo-linkedin.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="barra-de-informacoes">
+            <div class="b-d-i_sessao-esquerda">
+                <div class="b-d-i_s-e_icone">
+                    <img class="b-d-i_s-e_icone_img" src="src/imagens/icone-calendario.png" alt="icone-calendario">
+                </div>
+                <div class="b-d-i_s-e_conteudo">
+                    <span class="b-d-i_s-e_c_chave" id="data">DATA - 88-88-88</span>
+                    <span class="b-d-i_s-e_c_valor" id="semana">DIA DA SEMANA</span>
+                </div>
+            </div>
+
+            <div class="b-d-i_sessao-central">
+                <div class="b-d-i_s-c_icone">
+                    <img class="b-d-i_s-c_icone_img" src="src/imagens/icone-relogio.png" alt="icone-relogio">
+                </div>
+                <div class="b-d-i_s-c_conteudo">
+                    <h3 class="b-d-i_conteudo_chave">HORA</h3>
+                    <div class="b-d-i_conteudo_valor">
+                        <span class="b-d-i_conteudo_h" id="hora">88</span>
+                        <span>:</span> 
+                        <span class="b-d-i_conteudo_m" id="minuto">88</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="barra-de-informacoes_sessao-direita">
+                <div class="b-d-i_s-d_icone">
+                    <img class="b-d-i_s-d_icone_img" src="src/imagens/icone-cronometro.png" alt="icone-cronometro">
+                </div>
+                <div class="b-d-i_s-d_conteudo">
+                    <h3 class="b-d-i_conteudo_chave">CRONOMETRO</h3>
+                    <div class="b-d-i_conteudo_valor">
+                        <button type="submit" class="btn-cronometro" onclick="iniciar()" id="btn-iniciar">
+                            INICIAR
+                        </button>
+                        <button type="submit" class="btn-cronometro" onclick="pausar()" id="btn-pausar">
+                            PAUSAR
+                        </button>
+                        <button type="submit" class="btn-cronometro" onclick="parar()" id="btn-parar">
+                            PARAR
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="cronometro">
+            <div class="c_horas">
+                <span class="c_h_numero" id="hh">00</span>
+            </div>
+            <div class="c_h_separador">
+                <span class="c_h_s-horas">:</span>
+            </div>
+            <div class="c_minutos">
+                <span class="c_m_numero" id="mm">00</span>
+            </div>
+            <div class="c_m_separador">
+                <span class="c_m_s-minutos">:</span>
+            </div>
+            <div class="c_segundos">
+                <span class="c_s_numero" id="ss">00</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/javascript/index.js"></script>
+
+</body>
+
+</html>

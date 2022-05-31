@@ -1,0 +1,252 @@
+@import url(reset.css);
+@import url(geral.css);
+@import url(redes-sociais.css);
+
+
+/*---------- b-d-i = BARRA DE INFORMAÇÕES  ----------*/
+
+.barra-de-informacoes{
+  width: 900px;
+  height: 130px;
+  display: inline-block;
+}
+
+.b-d-i_conteudo_chave{
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+
+.b-d-i_conteudo_valor{
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 80px;
+}
+
+
+/*---------- b-d-i_s-e = BARRA DE INFORMAÇÕES - SESSÃO ESQUERDA ----------*/
+
+.b-d-i_sessao-esquerda{
+  width: 370px;
+  height: 130px;
+  display: inline-block;
+}
+
+.b-d-i_s-e_icone{
+  width: 140px;
+  height: 130px;
+  display: inline-block;
+}
+
+.b-d-i_s-e_icone_img{
+  width: 55px;
+  position: relative;
+  top: 70px;
+  left: 80px;
+}
+
+.b-d-i_s-e_conteudo{
+  width: 225px;
+  height: 130px;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+}
+
+.b-d-i_s-e_c_chave{
+  text-align: center;
+  position: relative;
+  top: 70px;
+  display: block;
+}
+
+.b-d-i_s-e_c_valor{
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 80px;
+  display: block;
+}
+
+
+/*---------- b-d-i_s-c = BARRA DE INFORMAÇÕES - SESSÃO CENTRAL ----------*/
+
+.b-d-i_sessao-central{
+  width: 160px;
+  height: 130px;
+  display: inline-block;
+  position: relative;
+}
+
+.b-d-i_s-c_icone{
+  width: 57px;
+  height: 130px;
+  display: inline-block;
+}
+
+.b-d-i_s-c_icone_img{
+  width: 55px;
+  position: relative;
+  top: 70px;
+}
+
+.b-d-i_s-c_conteudo{
+  width: 98px;
+  height: 130px;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+}
+
+.b-d-i_conteudo_h{
+  position: relative;
+  left:8px;
+}
+
+.b-d-i_conteudo_m{
+  position: relative;
+  left:-8px;
+}
+
+
+/*---------- b-d-i_s-d = BARRA DE INFORMAÇÕES - SESSÃO DIREITA ----------*/
+
+.barra-de-informacoes_sessao-direita{
+  width: 320px;
+  height: 130px;
+  display: inline-block;
+}
+
+.b-d-i_s-d_icone{
+  width: 57px;
+  height: 130px;
+  display: inline-block;
+}
+
+.b-d-i_s-d_icone_img{
+  width: 55px;
+  position: relative;
+  top: 70px;
+}
+
+.b-d-i_s-d_conteudo{
+  width: 250px;
+  height: 130px;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+}
+
+.btn-cronometro{
+  font-size: 20px;
+  background-color: #00c3fe;
+  color: #0a2331;
+  width: 70px;
+  height: 25px;
+  border-radius: 5px 0px;
+  cursor: pointer;
+}
+
+.btn-cronometro:hover{
+  background-color: #0a2331;
+  color: #00c3fe;
+  border: solid 2px #00c3fe; 
+}
+
+.btn-cronometro:active{
+  transform: scale(0.8); 
+}
+
+
+/*---------- c = CRONÔMETRO ----------*/
+
+.cronometro{
+  width: 900px;
+  height: 320px;
+  display: inline-block;
+  font-size: 280px;
+}
+
+
+/*---------- c_h = CRONÔMETRO - HORAS ----------*/
+
+.c_horas{
+  width: 330px;
+  height: 320px;
+  display: inline-block; 
+}
+
+.c_h_numero{
+  position: relative;
+  left: 70px;
+  top: 25px;
+}
+
+.c_h_separador{
+  width: 42px;
+  height: 320px;
+  display: inline-block;
+  position: relative;
+  left: -65px;
+}
+
+.c_h_s-horas{
+  font-weight: bold;
+  font-size: 150px;
+  position: relative;
+  top: 10px;
+  left: 9px;
+}
+
+
+/*---------- c_m = CRONÔMETRO - MINUTOS ----------*/
+
+.c_minutos{
+  width: 260px;
+  height: 320px;
+  display: inline-block;
+  position: relative;
+  left: -130px; 
+}
+
+.c_m_numero{
+  position: relative;
+  left: -10px;
+  top: 25px;
+}
+
+.c_m_separador{
+  width: 35px;
+  height: 320px;
+  display: inline-block;
+  position: relative;
+  left: -198px;
+}
+
+.c_m_s-minutos{
+  font-weight: bold;
+  font-size: 150px;
+  position: relative;
+  top: 10px;
+  left: -3px;
+}
+
+
+/*---------- c_s = CRONÔMETRO - SEGUNDOS ----------*/
+
+.c_segundos{
+  width: 219px;
+  height: 320px;
+  display: inline-block;
+  position: relative;
+  left: 670px;
+  top: -320px; 
+}
+
+.c_s_numero{
+  position: relative;
+  font-size: 190px;
+  left: -15px;
+  top: 25px;
+}

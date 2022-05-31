@@ -1,0 +1,32 @@
+.redes-sociais{
+    font-family: 'impact', sans-serif;
+    color: rgb(91, 20, 20);
+    text-align: center;
+    width: 900px;
+    height: 120px;
+  }
+  
+  .redes-sociais_autor{
+    position: relative;
+    top:25px;
+  }
+  
+  .redes-sociais_lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    position: relative;
+    top: 29px;
+  }
+
+  .redes-sociais_item-de-lista:hover{
+    transform: scale(1.3);
+  }
+  
+  .redes-sociais_img{
+    width: 21px;
+    border-radius: 5px;
+  }
+  
+ 
